@@ -71,7 +71,7 @@ namespace Albo1125.Common
                             {
                                 Game.LogTrivial("Wrong LSPD First Response.dll version detected. To run this mod, you need LSPDFR " + MadeForLSPDFRVersion.ToString());
                                 Plugins_URL_Errors.Add(CallingPlugin, installationVideoURL, "Detected invalid LSPD First Response.dll version. To run this mod, you need LSPDFR " + MadeForLSPDFRVersion.ToString());
-                                CheckPassedSuccessfully = false;
+                                CheckPassedSuccessfully = true;
                             }
                         }
                         else
